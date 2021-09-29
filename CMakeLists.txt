@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5.0)
 
-include(CMake/HunterGate.cmake)
+include(HunterGate)
 
 project(Poco)
 
