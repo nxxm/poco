@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.5.0)
 
+include(CMake/HunterGate.cmake)
+
 project(Poco)
+
+hunter_add_package(OpenSSL)
+find_package(OpenSSL REQUIRED)
 
 file(STRINGS "${PROJECT_SOURCE_DIR}/libversion" SHARED_LIBRARY_VERSION)
 # Read the version information from the VERSION file
