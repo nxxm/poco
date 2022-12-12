@@ -1,3 +1,3 @@
-{
-	"tipi-deps/middleware_openssl" : {"u" : true}
-}
+ { 
+   "tipi-deps/middleware_openssl" : { "@" : "v1.1.1n-tipi", "u" : true}
+ }
